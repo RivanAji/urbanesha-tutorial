@@ -1,7 +1,10 @@
-site_name: My Docs
+site_name: Urbanesha Tutorials
 site_url: https://example.com
+#repo_url: https://github.com/RivanAji/gravigis
 theme:
   name: material
+  features:
+    - navigation.tabs
   logo: assets/logo.png
   favicon: assets/favicon.ico
   palette:
@@ -11,13 +14,49 @@ theme:
       icon: material/toggle-switch
       name: dark mode
     primary: blue
-
   #light mode:
   - scheme: default
     toggle:
       icon: material/toggle-switch-off
       name: light mode
     primary: blue
+
+nav:
+    - Home: 
+      - Welcome: index.md
+      - Report Issues: https://github.com/RivanAji/gravigis/issues
+    - LanduseSim:
+      - Getting Started: landusesim/landusesim.md
+      - Install: landusesim/ls_install.md
+      - Tutorial: landusesim/ls_tutorial.md
+      - FAQ: landusesim/ls_faq.md
+      - Changelog: landusesim/ls_changelog.md
+      - Examples:
+        - landusesim/ls_example1.md
+    - GraviGIS:
+      - Getting Started: gravigis/gravigis.md
+      - Install: gravigis/gr_install.md
+      - Tutorial: gravigis/gr_tutorial.md
+      - FAQ: gravigis/gr_faq.md
+      - Changelog: gravigis/gr_changelog.md
+      - Examples:
+        - gravigis/gr_example1.md
+    - UrbanSCAD:
+      - Getting Started: urbanscad/urbanscad.md
+      - Install: urbanscad/us_install.md
+      - Tutorial: urbanscad/us_tutorial.md
+      - FAQ: urbanscad/us_faq.md
+      - Changelog: urbanscad/us_changelog.md
+      - Examples:
+        - urbanscad/us_example1.md
+    - UrbanRVM:
+      - Getting Started: urbanrvm/urbanrvm.md
+      - Install: urbanrvm/ur_install.md
+      - Tutorial: urbanrvm/ur_tutorial.md
+      - FAQ: urbanrvm/ur_faq.md
+      - Changelog: urbanrvm/ur_changelog.md
+      - Examples:
+        - urbanrvm/ur_example1.md
 
 markdown_extensions:
   - attr_list
@@ -49,5 +88,7 @@ extra:
       link: https://www.linkedin.com/company/urbanesha/
     - icon: fontawesome/brands/instagram
       link: https://instagram.com/urbanesha
+extra_css:
+  - styles/extra.css
 
 copyright: Copyright &copy; 2025 Urbanesha

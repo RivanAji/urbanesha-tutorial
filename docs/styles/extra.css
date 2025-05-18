@@ -1,0 +1,19 @@
+.md-header__inner {
+  height: 45px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.md-tabs__list{
+  height: 30px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.md-tabs__link {
+  margin-top: 5px !important;
+  margin-bottom: 0 !important;
+}
+.md-tabs__item {
+    height: 30px !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
