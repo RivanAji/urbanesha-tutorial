@@ -57,9 +57,18 @@ nav:
       - Changelog: urbanrvm/ur_changelog.md
       - Examples:
         - urbanrvm/ur_example1.md
+    - Tranetsim:
+      - Getting Started: tranetsim/tranetsim.md
+      - Install: tranetsim/ts_install.md
+      - Tutorial: tranetsim/ts_tutorial.md
+      - FAQ: tranetsim/ts_faq.md
+      - Changelog: tranetsim/ts_changelog.md
+      - Examples:
+        - tranetsim/ts_example1.md
 
 markdown_extensions:
   - attr_list
+  - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
