@@ -1,6 +1,6 @@
 #Welcome to TranetSim Tutorial
 
-<img src="/assets/tranetsim.png" alt="logo-tranetsim" width="100"/>
+![logo_tranetsim](tutorial/tranetsim.png)
 
 **Transport Network Simulator**
 
